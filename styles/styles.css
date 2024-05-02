@@ -1,0 +1,18 @@
+
+p       { padding:0 }
+main    { max-width:960px }
+main img { width:150px; height:auto }
+aside   { 
+    width:20%;
+    margin:10px;
+    border:1px solid black;
+    padding:20px;
+    background-color:#acaeae;
+    color:#762432
+ }
+ aside img  { width:200px; height:auto }
+ footer {
+    margin-top:50px;
+    border-top:1px solid black;
+    text-align:center;
+ }
