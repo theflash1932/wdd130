@@ -1,5 +1,8 @@
 
 p       { padding:0; }
+nav     { padding:20px; }
+nav a   { text-decoration:underline; color:#540210; }
+h1      { color:royalblue; font-variant:small-caps; }
 main    { max-width:960px; }
 main img { width:150px; height:auto; }
 aside   { 
