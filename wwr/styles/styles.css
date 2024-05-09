@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+    --primary-color:#8ECAE6;
+    --secondary-color:#219EBC;
+    --accent1-color:#FFB703;
+    --accent2-color:#FB8500;
+    --heading-font:"Verdana";
+    --paragraph-font:"Montserrat";
+    --nav-background-color:#023047;
+    --nav-link-color:#FFB703;
+    --nav-hover-link-color:#023047;
+    --navigation-hover-background-color:#219EBC;
+    /* additional color, if needed: #023047 */
+}
+body        { max-width:960px; padding:20px; font-family:var(--paragraph-font); }
+header      { padding:20px; background-color:#023047; color:var(--primary-color); }
+p           { padding:10px; }
+nav         { background-color:var(--nav-background-color); display:flex; }
+nav a       { display:block; color:var(--nav-link-color); text-decoration:none; padding:15px; }
+nav a:link, nav a:visited { color:var(--nav-link-color); }
+nav a:hover { color:var(--nav-hover-link-color); background-color:var(--navigation-hover-background-color); }
+.colors     { padding:0 50px }
