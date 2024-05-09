@@ -18,4 +18,4 @@ nav         { background-color:var(--nav-background-color); display:flex; }
 nav a       { display:block; color:var(--nav-link-color); text-decoration:none; padding:15px; }
 nav a:link, nav a:visited { color:var(--nav-link-color); }
 nav a:hover { color:var(--nav-hover-link-color); background-color:var(--nav-hover-background-color); }
-
+h1, h2, h3, h4, h5, h6  { font-weight:bold; }
