@@ -1,10 +1,10 @@
-
+*       { margin:0; padding:0; box-sizing:border-box; }
 p       { padding:0; }
 nav     { padding:20px; }
 nav a   { text-decoration:underline; color:#540210; }
 h1      { color:royalblue; font-variant:small-caps; }
 main    { max-width:960px; }
-main img { width:150px; height:auto; }
+main img { width:150px; height:auto; float:right; }
 aside   { 
     width:20rem;
     margin:10px;
@@ -12,10 +12,16 @@ aside   {
     padding:20px;
     background-color:#acaeae;
     color:#762432;
+    position:relative;
  }
+ aside h2   { position:absolute; top:75px; left:105px; }
  aside img  { width:200px; height:auto; }
  footer {
     margin-top:50px;
     border-top:1px solid black;
     text-align:center;
  }
+
+ /* Class Selectors */
+
+ .box    { margin:1em; border:1em; padding:1em; background-color:lightgray; color:navy; }
