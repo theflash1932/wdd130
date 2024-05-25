@@ -19,7 +19,15 @@ nav a       { display:block; color:var(--nav-link-color); text-decoration:none; 
 nav a:link, nav a:visited { color:var(--nav-link-color); }
 nav a:hover { color:var(--nav-hover-link-color); background-color:var(--nav-hover-background-color); }
 h1, h2, h3, h4, h5, h6  { font-weight:bold; }
+h1          { color:var(--accent2-color); padding:10px 0; font-size:4em; }
+h2          { padding:1em 0; }
+p           { color:black; padding:0; }
 
  /* Class Selectors */
 
- .hero      { background-image:url(images/hero.jpg); }
+ .hero      { position:relative; margin-top:25px; }
+ .hero img  { display:block; width:100%; height:auto; }
+ .hero h1   { position:absolute; background-color:gray; top:-10px; width:100%; text-align:center; }
+ .hero article { position:absolute; top:160px; left:80px; background-color:lightskyblue; width:800px; }
+ .hero > article img { float:right; width:auto; padding:1em; }
+ .hero > article p { padding:1em; }
