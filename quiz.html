@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="This assignment tests my knowledge and skill with creating and styling webforms.">
+        <meta name="author" content="Greg Nielson">
+        <title>Week 5 Assignment - Form Quiz</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <h1>Quiz Assignment</h1>
+        <div class="form">
+        <form>
+            <label for="q1">What does HTML stand for?</label>
+            <input type="text" name="q1" id="q1">
+            <label for="q2">What is the difference between a class and and ID?</label>
+            <textarea name="q2" id="q2"></textarea>
+            <label for="q3">What is the primary purpose of HTML?</label>
+            <select value="conn" name="q3" id="q3" se>
+                <option></option>
+                <option value="conn">Connectivity</option>
+                <option value="content">Content</option>
+                <option value="none">No such thing</option>
+            </select>
+            <label for="qe">What is the primary purpose of CSS?</label>
+            <select value="conn" name="qe" id="qe">
+                <option></option>
+                <option value="none">No such thing</option>
+                <option value="conn">Connectivity</option>
+                <option value="format">Formatting</option>
+            </select>
+            <label for="q4">How many pixels is the right margin for class 'content'?<br><br><span class="code">.content { margin:1px 12px 3px 8px }</span></label>
+            <input type="number" name="q4" id="q4">
+            <label></label>
+            <input type="submit" value="Submit Quiz" class="button">
+            <label></label>
+        </form>
+    </body>
+</html>
