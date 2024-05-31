@@ -23,6 +23,8 @@ h1, h2, h3, h4, h5, h6  { font-weight:bold; }
 h1          { color:var(--accent2-color); padding:10px 0; font-size:4em; }
 h2          { padding:1em 0; }
 p           { color:black; padding:0; }
+main        { margin-bottom:20px; }
+li          { list-style-type:none; padding:15px; }
 
  /* Class Selectors */
 
@@ -34,3 +36,16 @@ p           { color:black; padding:0; }
  .hero > article p { padding:1em; }
 .img-layout { display:grid; grid-template-columns:1fr 1fr 1fr 1fr 1fr; }
 .img-layout img { width:155px; }
+
+/* Form layout */
+
+form        { display:grid; gap:5px; padding:20px 40px; background-color:var(--primary-color); width:fit-content; font-size:1em; }
+label,input,textarea,select { padding:0; margin:0; display:block; }
+label       { margin-top:20px; }
+input,select { padding:5px; }
+textarea    { height:100px; }
+.button     { padding:10px; background-color:var(--nav-hover-link-color); color:white; font-size:1.5em; } 
+.code       { background-color: lightgray; }
+
+.together   { display:inline; } 
+.profiles   { display:grid; grid-template-columns:auto; justify-content:space-evenly; }
