@@ -40,13 +40,10 @@
                 <input type="text" name="name" id="name">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email">
-                <label for="purpose">Purpose</label>
-                <select name="purpose" id="purpose">
-                    <option value="" selected disabled>Choose one...</option>
-                    <option value="inquiry">General Inquiry</option>
-                    <option value="reservations">Reservation Question</option>
-                    <option value="suggestion">Website Suggestion</option>
-                </select>
+                <p>Purpose</p>
+                <label for="inquiry" class="together"><input type="radio" name="purpose" id="inquiry" value="General Inquiry" class="together"> General Inquiry</label>
+                <label for="reservation" class="together"><input type="radio" name="purpose" id="reservation" value="Reservation Question" class="together"> Reservation Question</label>
+                <label for="suggestion" class="together"><input type="radio" name="purpose" id="suggestion" value="Website Suggestion" class="together"> Website Suggestion</label>
                 <label for="msg">Message</label>
                 <textarea name="msg" id="msg"></textarea>
                 <label for="subs"><input type="checkbox" name="subs" id="subs" class="together"> Please subscribe me to the monthly newsletter</label>
