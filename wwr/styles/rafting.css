@@ -33,7 +33,7 @@ dl          { display:grid; }
 
  .hero      { position:relative; margin-top:25px; }
  .hero img  { display:block; width:100%; height:auto; }
- .hero h1   { position:absolute; background-color:gray; top:-10px; width:100%; text-align:center; }
+ .hero h1   { position:absolute; background-color:var(--nav-background-color); top:-10px; width:100%; text-align:center; }
  .hero article { position:absolute; top:160px; left:80px; background-color:lightskyblue; width:800px; }
  .hero > article img { float:right; width:auto; padding:1em; }
  .hero > article p { padding:1em; }
